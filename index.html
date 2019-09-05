@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <header>
+    
+    	<h1><center>OLUWATOSIN ADEMILUYI</center></h1>
+    	<p><center>Phone: 08062392051</center></p>
+    	<p><center>Email: tosinademiluyi@gmail.com</center></p>
+    	<!-- link for pic on cloudinary -->
+    	<center><img src="https://res.cloudinary.com/ademiluyi/image/upload/v1566999988/pic_um55md.jpg"></center>
+    	<h2>About Me</h2>
+        <button class="open-button" onclick="openForm()">Contact Me</button>
+
+        <div class="form-popup" id="myForm">
+          <form action="/action_page.php" class=" form-container">
+          <h1>Contact Form</h1>
+
+            <label for="email"><b>Name</b></label>
+            <input type="text" placeholder="Enter name" name="name" required>
+
+            <label for="psw"><b>Email</b></label>
+            <input type="password" placeholder="Enter  email" name="email" required>
+            
+            <label for="Message"><b>Message</b></label><br>
+            <textarea id="message" name="message" placeholder="Write something.." style="width: 288px;">
+            </textarea><br><br>
+
+
+
+            <button type="submit" class="btn">Submit</button><br>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+           </form>
+        </div>
+    	
+    	<p>IT Manager with over 7+ years of experience in managing  information technology infrastructure with skills both in hardware and software. <br>Possesses the ability of implementing solutions strategically to meet changing business needs. Has ability to build key relationships and communicate well with stakeholders.</p>
+    	
+
+
+    	<div>
+    	   <a href="#">Skill Profile</a>
+    	   <a href="#">Professional Experience</a>
+    	   <a href="#">Education</a>
+    	   <a href="#">Certifications</a>
+    	   <!-- <a href="#">Projects Done</a> -->
+    		
+    	</div>
+
+    </header>
+
+    <hr>
+    <div>
+    	<h3>Skill Profile</h3>
+    	<ol>
+    		<li>Information Technology service Management with ITIL</li>
+    		<li>IT Security, network security via web filtering, email filtering, firewall, endpoint security and application restriction</li>
+    		<li>IT Support, computer System Administration</li>
+    		<li>Network Administration / Support</li>
+    		<li>Website Design / Development, Cpanel administration, proficiency in Apache server</li>
+    		<li>Proficiency in frontend programming (web development) - HTML, CSS, Javascript, Jquery, Bootstrap</li>
+    		<li>Proficiency in Wordpress CMS</li>
+    		<li>Proficiency in computer maintenance and repairs</li>
+
+    	</ol>
+    </div>
+    <hr>
+    <h3>Professional Experience</h3>
+    <p>	<b>IT Manager</b> - Mar 2010 till date</p>
+    <p>Jide Taiwo and Co - Lagos</p>
+    <ul>
+    	<li>Design, Develop and Implement System policies and procedures in alignment with company needs</li>
+    	<li>Plan, Organize, Control, Evaluate I.T and Electronic Data Operations</li>
+    	<li>Management and development of company Website, in-house web applications, portals and softwares. Ensuring smooth running of same</li>
+    	<li>Management of information technology services to ensure smooth running of business operations whilst maintaining constant functionality of all ICT equipments.</li>
+    	<li>Ensuring Security of Data, Network access, systems and Backup of web and offline data</li>
+    	<li>Maintenance of systems once they are up and running</li>
+    	<li>Keeping abreast with industry standards and best practices to proffer up to date, quality and appropriate technological solutions for the support of business operations.</li>
+    	<li>Administration of computer systems and printers,  ensuring repair, upgrade, installation and maintenance of same</li>
+    	<li>Network infrastructure administration, its setup, configuration and management of LAN, WAN routers and switches </li>
+    	<li>Cmmunication, presentation, listening, teamwork, creativity, mentoring, and negotiation skills</li>
+    </ul>
+    <hr>
+    <h3>Education</h3>
+    <p><b>BSC (HONS)  Information Communication Technology <i>(2012)</i> </b> National Open University of Nigeria </p>
+    <p><b>Senior School Certificate Examination <i>(SSCE 1995)<i/></b> International School University of Ibadan, Ibadan </p>
+    <hr>
+    <h3>Professional Qualifications</h3>
+    <p></p>
+    <p><b>Web Design </b> <br>Datalex Nig Limited <i>(2014)<i/></p>
+    <p><b>Certificate in Leadership </b> <br>Shaddaiville Leadership Academy <i>(2008)<i/></p>
+    <p><b>ORACLE 9i DBA</b><br> NIIT (2004)</p>
+    <p><b>Desktop Publishing & Graphics Design/ Computer Engineering<b/><br>The lecturer computer school(2004)</p>
+    <hr>
+    <div class="projects">
+    	<h3>Projects Done</h3>
+    	<a href="https://www.sinl.com.ng">Sinl Ltd</a>
+    	<a href="https://www.oaps.com.ng">Oaps Ltd</a>
+    	<a href="https://thestonehouseboutiquehotel.com">The Stone House</a>
+    </div>
+    <hr>
+
+    <h3>Job Charges</h3>
+    <table class="table">
+    	<tr>
+    	   <th>Type of website</th>
+    	   <th>Price</th>
+    		
+    	</tr>
+    	<tr>
+    	   <td>Static</td>
+    	   <td>N70,000</td>
+    	     		
+    	</tr>
+    	<tr>
+    	   <td>Dynamic</td>
+    	   <td>N150,000</td>
+    	     		
+    	</tr>
+    	<tr>
+    	   <td>Worpress</td>
+    	   <td>N60,000</td>
+    	     		
+    	</tr>
+    </table>
+    <hr>
+    <footer>
+    	<h3>Contact</h3>
+        <a href="https://www.linkedinn.com/in/tosinademiluyi/" target="_blank"><img src="img/linkedinn.png"></a>
+        
+
+    </footer>
+    <script>
+       function openForm() {
+       document.getElementById("myForm").style.display = "block";
+}
+
+       function closeForm() {
+       document.getElementById("myForm").style.display = "none";
+}
+</script>
+    
+</body>
+</html>
