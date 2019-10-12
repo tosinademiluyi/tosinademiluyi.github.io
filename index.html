@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Alex Brush' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <title>Events Planning</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  	<div class="container">
+  		<a href="index.html" class="navbar-brand" style="font-family: Alex Brush; font-size: 40px;">Events Planning</a>
+  		<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+  			<span class="navbar-toggler-icon"></span>
+  		</button>
+  		<div class="collapse navbar-collapse" id="navbarCollapse">
+  			<ul class="navbar-nav ml-auto">
+  				<li class="nav-item active">
+  					<a href="#home" class="nav-link">HOME</a>
+  				</li>
+  				<li class="nav-item">
+  					<a href="#about" class="nav-link">SERVICES</a>
+  				</li>
+  				<li class="nav-item">
+  					<a href="#services" class="nav-link">ABOUT</a>
+  				</li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">OUR WORK</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link">CONTACT US</a>
+          </li>
+  			</ul>
+  		</div>
+  	</div>
+  </nav>
+  
+<!-- SHOWCASE SLIDER -->
+<section id="showcase">
+   <div id="myCarousel" class="carousel slide" data-ride="carousel">
+   	   <ol class="carousel-indicators">
+   	      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+   	      <li data-target="#myCarousel" data-slide-to="1" ></li>
+   	      <li data-target="#myCarousel" data-slide-to="2" ></li>
+   	   	</ol>
+   	   	<div class="carousel-inner">
+   	   		<div class="carousel-item carousel-image-1 active" style="background: url('./images/banner.jpg'); font-family: Alex Brush">
+   	   			<div class="container">
+   	   				<div class="carousel-caption d-none d-sm-block text-center mb-5">
+   	   					<h1 class="display-3">Let Professionals Run Your Event</h1>
+   	   					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+   	   					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+   	   					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+   	   					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+   	   					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+   	   					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+   	   					<!-- <a href="#" class="btn btn-danger btn-lg">Sign Up Now</a> -->
+   	   				</div>
+   	   			</div>
+   	   		</div>
+
+   	   		<!-- <div class="carousel-item carousel-image-2" style="background: url('./images/image2.jpg');">
+   	   			<div class="container">
+   	   				<div class="carousel-caption d-none d-sm-block mb-5">
+   	   					<h1 class="display-3">Heading Two</h1>
+   	   					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+   	   					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+   	   					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+   	   					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+   	   					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+   	   					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+   	   					<a href="#" class="btn btn-primary btn-lg">Learn More</a>
+   	   				</div>
+   	   			</div>
+   	   		</div>
+
+   	   		<div class="carousel-item carousel-image-3" style="background: url('./images/image3.jpg');">
+   	   			<div class="container">
+   	   				<div class="carousel-caption d-none d-sm-block text-right mb-5">
+   	   					<h1 class="display-3">Heading Three</h1>
+   	   					<p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+   	   					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+   	   					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+   	   					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+   	   					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+   	   					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+   	   					<a href="#" class="btn btn-success btn-lg">Learn More</a>
+   	   				</div>
+   	   			</div>
+   	   		</div>
+   	   	</div> -->
+
+
+        <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+
+        <a href="#myCarousel" data-slide="prev" class="carousel-control-next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+   </div>
+</section>
+
+<!-- HOME ICON SECTION -->
+
+<section id="" class="text-center">
+  <div class="">
+    <div class="row"> 
+      <div class="col">
+        <div class="container pt-5">
+        <!-- <i class="fas fa-birthday-cake" style="background-image: url('Polygon 1.jpg'); color: white"; ></i> -->
+          <h1 style="font-family: Alex Brush"><b>Welcome To Our <span style="color: deeppink;">Events</span></b></h1>
+          <p class="d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. .</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="home-icons" class="py-5" >
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 mb-4 text-center">
+        <i class="fas fa-birthday-cake fa-3x mb-2" style="color: deeppink"></i><br><br>
+        <h2 style="font-family: Alex Brush"><b>Birthdays</b></h2>
+        <p>lorem kjdksjksjfkfjlsfs skdhjskfjs</p>
+      </div>
+      <div class="col-md-4 mb-4 text-center">
+        <i class="fas fa-heart fa-3x mb-2" style="color: deeppink"></i><br><br>
+        <h2 style="font-family: Alex Brush"><b>Wedding</b></h2>
+        <p>lorem kjdksjksjfkfjlsfs skdhjskfjs</p>
+      </div>
+      <div class="col-md-4 mb-4 text-center">
+        <i class="fas fa-snowflake fa-3x mb-2" style="color: deeppink"></i><br><br>
+        <h2 style="font-family: Alex Brush"><b>Corporate</b></h2>
+        <p>lorem kjdksjksjfkfjlsfs skdhjskfjs</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOME HEADING SECTION -->
+<section id="" class="p-5" style="background-color: deeppink">
+  <div class="">
+    <div class="row">
+      <div class="col">
+        <div class="container pt-5 text-center" >
+          <h1 style="font-family: Alex Brush;"><b>Our <span style="color: white;">Services</span></b></h1>
+          <p class="d-none d-md-block" style="color: white;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut .</p>
+          <p style="color: white;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed.</p>
+        </div><br><br>
+        <div class="row" >
+          <div class="col-md-4 mb-4 text-left">
+            <img src="images/4.jpg" class="img-fluid">
+            <h2 style="font-family: Alex Brush;"><b>Party Locations</b></h2>
+            <p style="color: white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            </p>
+          </div>
+          <div class="col-md-4 mb-4 text-left">
+            <img src="images/5.jpg" class="img-fluid"><br>
+            <h2 style="font-family: Alex Brush;"><b>Catering & Food</b></h2>
+            <p style="color: white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            </p>
+          </div>
+          <div class="col-md-4 mb-4 text-left">
+            <img src="images/6.jpg" class="img-fluid">
+            <h2 style="font-family: Alex Brush;"><b>Doers and Decorations</b></h2>
+            <p style="color: white">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            </p>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INFO SECTION -->
+<section id="" class="text-center">
+  <div class="">
+    <div class="row"> 
+      <div class="col">
+        <div class="container pt-5">
+        <!-- <i class="fas fa-birthday-cake" style="background-image: url('Polygon 1.jpg'); color: white"; ></i> -->
+          <h1 style="font-family: Alex Brush"><b>Quick <span style="color: deeppink;">Links</span></b></h1>
+          <p class="d-none d-md-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+          tempor incididunt ut labore et dolore magna aliqua. .</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container" style="background-color: deeppink">
+  <div class="row">
+    <div class="col-md-6 mb-4">
+    <img src="images/1.jpg" class="img-fluid" style="padding: 25px 5px 0px 20px;">
+    </div>
+
+    <div class="col-md-6 mb-4"><br>
+    <h2 style="font-family: Alex Brush"><b>Birthdays Specials</b></h2>
+    <p><i class="fas fa-arrow-right" style="color: pink"></i>
+    <span style="color:white">Party Locations</span></p>
+    <p><i class="fas fa-arrow-right" style="color: pink"></i>
+    <span style="color:white">Catering & Food</span></p>
+    <p><i class="fas fa-arrow-right" style="color: pink"></i>
+    <span style="color:white">Party Rentals & Sales</span></p>
+    <p><i class="fas fa-arrow-right" style="color: pink"></i>
+    <span style="color:white">Party Suppliers & Favors</span></p>
+    <p><i class="fas fa-arrow-right" style="color: pink"></i>
+    <span style="color:white">Entertainment & Entertainers</span></p>
+    <p><i class="fas fa-arrow-right" style="color: pink"></i>
+    <span style="color:white">Photographers & Videographers</span></p>
+    <p><i class="fas fa-arrow-right" style="color: pink"></i>
+    <span style="color:white">Balloons & Flowers</span></p>
+    <p><i class="fas fa-arrow-right" style="color: pink"></i>
+    <span style="color:white">Decor & Decorations</span></p>
+    </div>
+  </div>
+</div>
+<section id="" class="">
+  <div class="">
+    <div class="row"> 
+      <div class="col">
+        <div class="container pt-5">
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="container" style="background-color: deeppink">
+  <div class="row">
+    <div class="col-md-6 mb-4"><br>
+      <h2 style="font-family: Alex Brush"><b>Birthdays Specials</b></h2>
+      <p><i class="fas fa-arrow-right" style="color: pink"></i>
+      <span style="color:white">Wedding & Engagement Rings</span></p>
+      <p><i class="fas fa-arrow-right" style="color: pink"></i>
+      <span style="color:white">Bridal Gowns</span></p>
+      <p><i class="fas fa-arrow-right" style="color: pink"></i>
+      <span style="color:white">Wedding Cakes</span></p>
+      <p><i class="fas fa-arrow-right" style="color: pink"></i>
+      <span style="color:white">Photo & Video</span></p>
+      <p><i class="fas fa-arrow-right" style="color: pink"></i>
+      <span style="color:white">Wedding Officiants</span></p>
+      <p><i class="fas fa-arrow-right" style="color: pink"></i>
+      <span style="color:white">Ceremony Locations</span></p>
+      <p><i class="fas fa-arrow-right" style="color: pink"></i>
+      <span style="color:white">Balloons & Flowers</span></p>
+      <p><i class="fas fa-arrow-right" style="color: pink"></i>
+      <span style="color:white">Limos & Transportation</span></p>
+    </div>
+    <div class="col-md-6 mb-4">
+     <img src="images/2.jpg" class="img-fluid" style="padding: 25px 5px 0px 20px;">
+    </div>
+  </div>
+</div>
+
+<section id="" class="">
+  <div class="">
+    <div class="row"> 
+      <div class="col">
+        <div class="container pt-5">
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="container" style="background-color: deeppink">
+  <div class="row">
+    <div class="col-md-6 mb-4">
+     <img src="images/10.jpg" class="img-fluid" style="padding: 25px 5px 0px 20px;">
+    </div>
+    <div class="col-md-6 mb-4"><br>
+      <h2 style="font-family: Alex Brush"><b>Birthdays Specials</b></h2>
+      <p><i class="fas fa-arrow-right" style="color: pink"></i>
+      <span style="color:white">Party Services</span></p>
+      <p><i class="fas fa-arrow-right" style="color: pink"></i>
+      <span style="color:white">Locations & Venues</span></p>
+      <p><i class="fas fa-arrow-right" style="color: pink"></i>
+      <span style="color:white">Catering & Food</span></p>
+      <p><i class="fas fa-arrow-right" style="color: pink"></i>
+      <span style="color:white">Party Rentals & Sales</span></p>
+      <p><i class="fas fa-arrow-right" style="color: pink"></i>
+      <span style="color:white">Entertainment & Entertainers</span></p>
+      <p><i class="fas fa-arrow-right" style="color: pink"></i>
+      <span style="color:white">Photographers & Videographers</span></p>
+      <p><i class="fas fa-arrow-right" style="color: pink"></i>
+      <span style="color:white">Music</span></p>
+      <p><i class="fas fa-arrow-right" style="color: pink"></i>
+      <span style="color:white">Decorations & Counterpieces</span></p>
+    </div>
+    
+  </div>
+</div>
+
+<section id="" class="">
+  <div class="">
+    <div class="row"> 
+      <div class="col">
+        <div class="container pt-5">
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="" class="p-5" style="background-image: url('./images/footer.jpg');">
+  <div class="">
+    <div class="row">
+      <div class="col">
+        <div class="container pt-5 text-center" >
+          <h1 style="font-family: Alex Brush; color: white;"><b>Events Planning</b></h1><br>
+          <hr style="border-color: white; width: 30%; ">
+          <h4 style="font-family: Alex Brush;"><span style="color: white;">(+000) 123 456 789</span></h4>
+          <hr style="border-color: white; width: 30%; ">
+        </div><br>
+        <div id="" >
+           <form class="text-center">
+            <input type="email" name="" placeholder="Your email" style="width:30%; height: 35px;">
+            
+            <input type="submit" name="" style="height: 35px; background-color: deeppink; border-color: deeppink;">
+            
+           </form> 
+        </div><br>
+       <!--  <div class="text-center">
+          <p style="word-spacing: 30px; color: white;">HOME ABOUT SERVICES OURWORK  CONTACTUS</p>
+        </div> -->
+         
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+  <div class="row">
+      <div class="col-md-6">
+       <div class="navbar" style="float: left; display: block;">
+         <a style="color: deeppink; padding: 14px; text-decoration: none;" href="#home" class="active">HOME</a>
+         <a style="color: white; padding: 14px; text-decoration: none;" href="#news">SERVICES</a>
+         <a style="color: white; padding: 14px; text-decoration: none;" href="#contact">ABOUT</a>
+         <a style="color: white; padding: 14px; text-decoration: none;" href="#contact">OUR WORK</a>
+         <a style="color: white; padding: 14px; text-decoration: none;" href="#contact">CONTACT US</a>         
+       </div>
+      </div>
+      <div class="col-md-6">
+         <div class="navbar" style="float: right; display: block;">
+            <a href="#" class="w3_agile_facebook"><i class="fa fa-facebook"></i></a></li>
+            <a href="#" class=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+            <a href="#" class="w3_agile_dribble"><i class="fa fa-dribbble" aria-hidden="true"></i></a></li>
+            <a href="#" class=""><i class="fa fa-vimeo" aria-hidden="true"></i></a></li><br>
+
+           
+         </div>
+      </div><br>
+      <!-- <hr style="border-color: white; width: 95%; ">
+      <h4 style="position: text-center;">kjdjljd</h4>
+      <hr style="border-color: white; width: 95%; "> -->
+      <div class="container pt-5 text-center" >
+          
+          <hr style="border-color: white; width: 95%; ">
+          <p style=""><span style="color: white;">© 2017 Events Planning. All rights reserved | Design by <a href="http://w3layouts.com/" style="color: deeppink;">W3layouts</a></span></p>
+          <hr style="border-color: white; width: 95%; ">
+     </div>
+  </div>
+  </div>
+   
+</section>
+   
+
+
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+
+    // Configure Slider
+    $('.carousel').carousel({
+       interval: 6000,
+       pause: 'hover'
+
+    });
+
+  </script>
+</body>
+
+</html>
